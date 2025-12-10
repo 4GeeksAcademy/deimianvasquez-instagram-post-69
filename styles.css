@@ -1,0 +1,109 @@
+body{
+    background-color: aquamarine;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: green;
+}
+
+ol {
+    background-color: brown;
+    color: white;
+}
+
+h2{
+    color: blue;
+}
+
+h1{
+    color: blueviolet;
+}
+
+table{
+    border: 2px solid red;
+}
+
+.title-main {
+    color: green;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    padding: 15px;
+}
+
+#p-main{
+    border: 1px dashed salmon;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    padding: 10px;
+    font-family:"Bitcount Prop Double Ink", system-ui;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    background-color: red;
+}
+
+button{
+    background-color: black !important;
+    color:white;
+}
+
+button{
+    background-color: red !important;
+}
+ul, ol, table{
+    background-color: red;
+    color: white;
+    border:2px solid grey;
+}
+
+.btn:hover{
+    background-color: black !important;
+}
+a:link{color: green;}
+a:visited{color: yellow;}
+a:hover{color: blue;}
+a:active{color: red;}
+a {
+    text-decoration:line-through;
+}
+
+.container > h1 {
+    border: 1px solid red;
+}
+.container {
+    font-size: 2rem;
+}
+.rem{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.em{
+    font-size: 2em;
+    padding: .5em;
+
+}
+.pixel{
+    font-size: 32px;
+}
+.banner-main{
+    border: 1px solid white;
+    height: 50dvh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://picsum.photos/id/200/1000/1000");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
