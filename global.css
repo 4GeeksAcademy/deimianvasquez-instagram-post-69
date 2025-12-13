@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite ;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    
+}
+
+nav .nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav .nav-list li{
+    display: flex;
+    gap: 10px;
+}
+
+nav .nav-list li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+}
+.nav-list li a:hover{
+    background-color: black;
+}

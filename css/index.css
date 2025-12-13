@@ -1,10 +1,8 @@
-body{
-    background-color: aquamarine;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+.border{
+    border: 0px solid red;
 }
+
+
 
 h2 {
     color: green;
@@ -60,21 +58,14 @@ button{
 button{
     background-color: red !important;
 }
-ul, ol, table{
+/* ul, ol, table{
     background-color: red;
     color: white;
     border:2px solid grey;
-}
+} */
 
 .btn:hover{
     background-color: black !important;
-}
-a:link{color: green;}
-a:visited{color: yellow;}
-a:hover{color: blue;}
-a:active{color: red;}
-a {
-    text-decoration:line-through;
 }
 
 .container > h1 {
@@ -107,3 +98,4 @@ a {
     background-position:center;
     background-size: cover;
 }
+

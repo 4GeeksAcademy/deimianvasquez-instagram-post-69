@@ -1,0 +1,102 @@
+
+
+.border{
+    border: 1px solid red;
+}
+.box-one{
+    /* padding: 100px 20px 100px 20px; */
+    padding: 100px 20px;
+    /* padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px; */
+    background-color: brown;
+    margin: 20px 20px;
+}
+
+.box-one p{
+    border:1px solid green;
+    padding: 15px;
+}
+
+.container {
+    border: 1px dashed green;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin: 100px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja {
+    border: 10px solid red;
+    width: 250px;
+    height: 250px;
+}
+.content-box{
+    padding: 50px;
+    /* box-sizing: border-box; */
+}
+.border-box{
+    padding: 100px;
+    /* box-sizing: border-box; */
+}
+
+.box-position{
+    border: 2px solid orange;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    position: relative;
+}
+.box-position > p{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 0;
+}
+.chat-w{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.box-d{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+   
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: center;
+
+}
+.caja-d{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* display: inline-block; */
+}
+.d-none{
+    display: none;
+}
